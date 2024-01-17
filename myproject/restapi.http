@@ -1,0 +1,10 @@
+GET http://127.0.0.1:8000/api/hello
+
+###
+
+GET http://127.0.0.1:8000/api/hello
+Authorization: Bearer LNXMa6YcgGbygjuVZi7kxyHRkcQMrn
+
+###
+GET http://127.0.0.1:8000/api/secret
+Authorization: Bearer LNXMa6YcgGbygjuVZi7kxyHRkcQMrn
