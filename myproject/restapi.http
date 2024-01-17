@@ -3,8 +3,11 @@ GET http://127.0.0.1:8000/api/hello
 ###
 
 GET http://127.0.0.1:8000/api/hello
-Authorization: Bearer LNXMa6YcgGbygjuVZi7kxyHRkcQMrn
+Authorization: Bearer WfYMDLs1OiD44Fijm7wtgE6RWEEIhN
 
 ###
 GET http://127.0.0.1:8000/api/secret
-Authorization: Bearer LNXMa6YcgGbygjuVZi7kxyHRkcQMrn
+Authorization: Bearer WfYMDLs1OiD44Fijm7wtgE6RWEEIhN
+
+###
+curl -X POST -d "token=WfYMDLs1OiD44Fijm7wtgE6RWEEIhN&client_id=id&client_secret=secret" http://localhost:8000/o/revoke-token/
